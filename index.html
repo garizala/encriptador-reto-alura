@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <img src="img/Logo-1.png" alt="Logo Alura">
+    </header>
+    <main>
+        <section class="add">
+            <textarea class="ingresarTexto" placeholder="Ingrese aquí su texto" name="" id="textAdd" cols="30" rows="10"></textarea>
+            <div class="content_btns">
+                <button class="btn_encriptar">Encrypt</button>
+                <button class="btn_desencriptar">Decrypt</button>
+            </div>
+        </section>
+
+        <section class="show">
+            <div class="muneco">
+                <img src="img/Muñeco.png" alt="Muñeco de alura">
+            </div>
+            <div class="titulohtres">
+                <h3>Ningun menseja fue encontrado</h3>
+            </div>
+            <div class="subtitulo">
+                <p>Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <div class="content_result">
+                <h3>Este es su mensaje</h3>
+                <textarea id="showText" class="mostrarTexto" cols="30" rows="10"></textarea>
+            </div>
+            <div class="boton_copiar">
+                <button id="copyText" class="copy">Copy</button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Encriptador de texto con html, css y JavaScript</p>
+    </footer>
+    <script src="logica.js"></script>
+</body>
+
+</html>
